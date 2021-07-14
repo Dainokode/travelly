@@ -1,0 +1,44 @@
+#main-header {
+    background-color: #04041d;
+    color: #fff;
+    
+    .navbar {
+        min-height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex: 1 1 40rem;
+        }
+
+        #logo {
+            flex: 2 1 40rem;
+            font-size: 3.5rem;
+            font-family: 'Pattaya', sans-serif;
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    html {
+        font-size: 45%;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        text-align: center;
+
+        #logo {
+            padding-bottom: 3rem;
+        }
+    }
+}

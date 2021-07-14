@@ -1,0 +1,14 @@
+#hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), transparent) ,url("/img/landing-page.jpg") no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p {
+        padding: 2.5rem 0;
+    }
+}

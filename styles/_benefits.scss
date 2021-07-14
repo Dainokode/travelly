@@ -1,0 +1,54 @@
+#benefits {
+    min-height: 100vh;
+
+    #benefits-header {
+        padding: 5rem;
+        background-color: #1e1e29;
+        color: #fff;
+        text-align: center;
+        min-height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        p {
+            padding-top: 3.5rem;
+        }
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 70vh;
+        text-align: center;
+        flex-wrap: wrap;
+
+        .card {
+            flex: 1 1 25rem;
+            min-height: 40vh;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.1);
+            margin: 3rem;
+
+            .card-icon {
+                background-color: #04041d;
+                padding: 2rem;
+            }
+
+            img {
+                height: 100px;
+            }
+
+            h4, p {
+                padding: 1rem 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    html {
+        font-size: 45%;
+    }
+}
